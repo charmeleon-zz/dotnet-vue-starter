@@ -1,7 +1,7 @@
 {
-  "name": "events-app",
+  "name": "dotnet-vue-starter",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "An ASP.NET Core + Vue.js starter project",
   "author": "Erick Rivas <chemical.rivas@gmail.com>",
   "private": true,
   "scripts": {
@@ -14,6 +14,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "aspnet-webpack": "^1.0.28",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1"
   },

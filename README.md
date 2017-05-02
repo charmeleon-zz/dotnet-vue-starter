@@ -1,8 +1,8 @@
-# events-app
+# dotnet-vue-starter
 
-> A Vue.js project
+> A Vue.js + ASP.NET Core Starter project
 
-## Build Setup
+## Frontend Build Setup (Vue)
 
 ``` bash
 # install dependencies
@@ -28,3 +28,13 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Build setup (ASP.NET Core)
+
+```bash
+# install dependencies
+dotnet restore
+
+# serve application at localhost:5000
+dotnet run
+```
